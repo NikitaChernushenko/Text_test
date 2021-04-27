@@ -1,0 +1,45 @@
+.btn:focus {
+  box-shadow: none;
+}
+.btn {
+  padding: 1px;
+  font-size: 14px;
+  margin: 2px;
+}
+
+.wrapperRadio {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+}
+.task {
+  cursor: pointer;
+  display: grid;
+  align-items: center;
+  justify-content: left;
+  color: #d9d9d9;
+}
+.clear {
+  cursor: pointer;
+  display: grid;
+  align-items: center;
+  justify-content: right;
+  color: #d9d9d9;
+}
+.wrapperRadio {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  min-height: 40px;
+}
+.Allselected {
+  border: grey solid 1px;
+  box-shadow: none;
+}
+.ToDoselected {
+  border: grey solid 1px;
+  box-shadow: none;
+}
+.Completedselected {
+  border: grey solid 1px;
+  box-shadow: none;
+}

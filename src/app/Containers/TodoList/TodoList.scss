@@ -1,0 +1,29 @@
+//todo implement styles for the TodoList here
+
+.container input {
+  display: grid;
+  border: none;
+  border-radius: 0;
+  border-bottom: rgb(188, 192, 188) ridge 1px;
+}
+
+.container {
+  max-width: 550px;
+  min-width: 300px;
+  min-height: 60px;
+  color: #4d4d4d;
+  border: whitesmoke solid 0.5px;
+  -webkit-box-shadow: 4px 4px 16px 14px rgba(34, 60, 80, 0.26);
+  -moz-box-shadow: 4px 4px 16px 14px rgba(34, 60, 80, 0.26);
+  box-shadow: 4px 4px 16px 14px rgba(34, 60, 80, 0.26);
+}
+.enter_task {
+  margin-bottom: 15px;
+  margin-top: 30px;
+
+  input:focus {
+    outline: none;
+    box-shadow: none;
+    border-bottom: rgb(188, 192, 188) ridge 1px;
+  }
+}
